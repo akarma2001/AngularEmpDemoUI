@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ff6b086f-7cb7-4930-8eed-1c84c158e085/resourceGroups/aksampleappresources/providers/Microsoft.Web/sites/akangularempui",
+    "appService.deploySubpath": "dist"
+}

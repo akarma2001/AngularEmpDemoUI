@@ -1,0 +1,21 @@
+<h3 class="d-flex justify-content-center">Angular, Web API, SQL, Azure hosted Demo Application</h3>
+<h5 class="d-flex justify-content-center">Employee Management Portal - by Ajit Karmarkar</h5>
+<!-- <div>
+<button (click)="goToDepartments()">Departments</button>&nbsp;
+<button (click)="goToEmployeeView()">Employees</button>
+</div> -->
+
+<nav class="navbar navbar-expand-sm bg-light navbar-dark">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <button routerLink="department" (click) = "goToDepartments()"
+            class="m-1 btn btn-light btn-outline-primary" Button>Departments</button>
+        </li>
+
+        <li class="nav-item">
+            <button routerLink="employee"  (click) = "goToEmployeeView()"
+            class="m-1 btn btn-light btn-outline-primary" Button>Employees</button>
+        </li>
+    </ul>
+    </nav>
+<router-outlet></router-outlet>
